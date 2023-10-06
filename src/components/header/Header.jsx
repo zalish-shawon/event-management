@@ -7,7 +7,7 @@ const Header = () => {
                 <div className="navbar bg-base-100">
                     
                     <div className="flex-1 mr-4">
-                        <img className="w-[200px]" src="/resources/Logo.png" alt="" />
+                        <img className="w-[120px]" src="/public/logo.png" alt="" />
                     </div>
                     <div className="flex-none">
                         <ul className="flex gap-5 items-center font-semibold">
