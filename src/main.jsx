@@ -9,6 +9,8 @@ import {
 import MainLayout from './components/mainLayout/MainLayout.jsx';
 import Home from './components/home/Home.jsx';
 import Details from './components/details/Details.jsx';
+import Login from './components/login/Login.jsx';
+import Register from './components/register/Register.jsx';
 const router = createBrowserRouter([
   {
     path: "/",
@@ -22,6 +24,14 @@ const router = createBrowserRouter([
         path: "/details/:id",
         loader: () => fetch('/data.json'),
         element: <Details></Details>
+      },
+      {
+        path: "/login",
+        element: <Login></Login>
+      },
+      {
+        path: "/register",
+        element: <Register></Register>
       }
     ]
   },
