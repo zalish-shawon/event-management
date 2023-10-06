@@ -1,0 +1,59 @@
+[
+    {
+      "id": 1,
+      "categoryName": "Weddings",
+      "thumb_img": "weddings_thumb.jpg",
+      "description": "Capture the magic of your special day with our wedding photography services. Our experienced photographers will ensure your love story is beautifully documented. From the intimate moments shared during the ceremony to the grand celebrations at the reception, we'll be there to create lasting memories. Our packages are tailored to suit your needs, whether you desire classic elegance or a more modern style. With prices ranging from $1,500 to $5,000, we offer affordable options for all budgets. Trust us to preserve the emotions, details, and beauty of your wedding day.",
+
+      "price": "$1,500 - $5,000",
+      "category_img": "https://i.ibb.co/mB9qjTH/wedding-4501653-1280.jpg",
+      "short_description": "Memorable wedding photography for your special day."
+    },
+    {
+      "id": 2,
+      "categoryName": "Birthday Parties",
+      "thumb_img": "birthday_thumb.jpg",
+      "description": "Celebrate another year of life with style! Our photographers will capture the joy, laughter, and unforgettable moments of your birthday bash. Whether it's a child's playful party or an adult's sophisticated soirée, we specialize in capturing the essence of the celebration. Our pricing ranges from $300 to $800, ensuring affordability for all. We pride ourselves on delivering vibrant and candid photos that tell the story of your special day. Let us be your birthday party photography choice, and relive the fun and memories for years to come.",
+
+      "price": "$300 - $800",
+      "category_img": "https://i.ibb.co/ZmVmXZ2/balloons-1761634-1280.jpg",
+      "short_description": "Fun and vibrant photography for your birthday celebration."
+    },
+    {
+      "id": 3,
+      "categoryName": "Anniversaries",
+      "thumb_img": "anniversaries_thumb.jpg",
+      "description": "Commemorate your years of love and togetherness with anniversary photography. Let us capture the romance and connection you share. Our experienced photographers specialize in creating beautiful and meaningful anniversary albums that celebrate your journey together. Our pricing ranges from $400 to $1,200, offering flexibility to meet your budget. From intimate candlelit dinners to grand anniversary parties, we'll be there to document the moments that matter most. Cherish the love story you've written together with our anniversary photography services.",
+      "price": "$400 - $1,200",
+      "category_img": "https://i.ibb.co/ZzL2ccm/affair-1238429-1280.jpg",
+      "short_description": "Romantic anniversary photography to cherish your moments."
+    },
+    {
+      "id": 4,
+      "categoryName": "Engagement Parties",
+      "thumb_img": "engagement_thumb.jpg",
+      "description": "Announce your engagement with style! Our photographers will document the excitement and love of your engagement party. From the heartfelt proposal to the celebratory party, we capture the essence of this special time. Our pricing ranges from $250 to $700, making it easy to capture your joy within budget. Our engagement party photography showcases the love and anticipation of your upcoming journey together. Let us be part of your engagement story and preserve these precious moments.",
+      "price": "$250 - $700",
+      "category_img": "https://i.ibb.co/k9mgbCP/wedding-2595862-1280.jpg",
+      "short_description": "Capture the love and joy of your engagement celebration."
+    },
+    {
+      "id": 5,
+      "categoryName": "Retirement Parties",
+      "thumb_img": "retirement_thumb.jpg",
+      "description": "Celebrate the end of one chapter and the beginning of another with retirement party photography. Capture the joy and well wishes of your loved ones. Whether it's a casual gathering or an extravagant affair, our photographers will document the emotions and memories. Our pricing ranges from $350 to $900, offering options for all budgets. Retirement parties mark a significant milestone, and we ensure that your transition is beautifully captured in photographs. Trust us to create a visual story of your retirement journey.",
+      "price": "$350 - $900",
+      "category_img": "https://i.ibb.co/Xjg0Z2T/people-1979261-1280.jpg",
+      "short_description": "Document the transition with retirement party photography."
+    },
+    {
+      "id": 6,
+      "categoryName": "Baby Shower",
+      "thumb_img": "baby_shower_thumb.jpg",
+      "description": "Welcome the newest addition to your family with a beautifully documented baby shower. Our photographers will capture the love and anticipation as you prepare to welcome your bundle of joy. Pricing for our baby shower photography ranges from $200 to $600, accommodating various budgets. From games and gifts to heartwarming moments, we'll preserve the happiness and excitement of this special occasion. Let us help you create a cherished album that tells the story of your baby shower and the love surrounding your growing family.",
+      "price": "$200 - $600",
+      "category_img": "https://i.ibb.co/qjMy6bC/istockphoto-1141213432-1024x1024.jpg",
+      "short_description": "Capture the love and anticipation of your baby shower."
+    }
+  ]
+  
