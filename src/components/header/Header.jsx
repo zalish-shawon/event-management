@@ -7,7 +7,7 @@ import toast, { Toaster } from 'react-hot-toast';
 
 const Header = () => {
     const { user, logOut } = useContext(AuthContext)
-
+    
     const handleLogOut = () => {
         logOut()
         .then(res => {

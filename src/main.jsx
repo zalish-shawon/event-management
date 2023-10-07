@@ -12,6 +12,7 @@ import Details from './components/details/Details.jsx';
 import Login from './components/login/Login.jsx';
 import Register from './components/register/Register.jsx';
 import AuthProvider from './provider/AuthProvider.jsx';
+import PrivateRoutes from './components/route/PrivateRoutes.jsx';
 const router = createBrowserRouter([
   {
     path: "/",
@@ -24,7 +25,7 @@ const router = createBrowserRouter([
       {
         path: "/details/:id",
         loader: () => fetch('/data.json'),
-        element: <Details></Details>
+        element: <PrivateRoutes><Details></Details></PrivateRoutes>
       },
       {
         path: "/login",
