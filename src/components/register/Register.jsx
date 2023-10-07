@@ -39,6 +39,7 @@ const handleUser = (e) => {
     createAccountWithPassword(email, password)
     .then(res => {
         toast.success('Successfully registered!')
+        console.log(res.user);
     })
     .catch(error => {
         console.error(error.message);
