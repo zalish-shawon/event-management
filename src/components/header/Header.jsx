@@ -34,9 +34,9 @@ const Header = () => {
                         <div className="flex-none">
                             <ul className="flex gap-5 items-center font-semibold">
 
-                                <NavLink to={"/"}><a className="hover:text-orange-600">Home</a></NavLink>
-                                <NavLink to={"/about"}><a className="hover:text-orange-600">About</a></NavLink>
-                                <NavLink to={"/statistics"}><a className="hover:text-orange-600">Statistics</a></NavLink>
+                                <NavLink to={"/"}><a className="">Home</a></NavLink>
+                                <NavLink to={"/about"}><a className="">About</a></NavLink>
+                                <NavLink to={"/contact"}><a className="">Contact</a></NavLink>
                                 {
                                     user ?
                                         <div className="flex items-center justify-center gap-3">

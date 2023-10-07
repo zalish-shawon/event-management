@@ -33,6 +33,7 @@ const handlegoogleLogin = () => {
   googleLogin()
   .then(res => {
     toast.success('Successfully logged in')
+    navigate(location?.state ? location.state : "/")
   })
   .catch(error => {
     toast.error(error.message)

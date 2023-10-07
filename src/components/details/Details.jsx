@@ -1,11 +1,11 @@
 /* eslint-disable react/no-unknown-property */
-import { useLoaderData, useParams } from "react-router-dom";
+import { NavLink, useLoaderData, useParams } from "react-router-dom";
 
 const Details = () => {
     const { id } = useParams()
     const services = useLoaderData()
     const details = services.find(item => item.id == id)
-    console.log(details);
+    
     return (
         <div className="p-12">
             <div className="hero h-[500px]" style={{ backgroundImage: `url(${details.category_img})`, backgroundSize: 'cover' }}>
@@ -27,7 +27,9 @@ const Details = () => {
                             <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">{details.description}</p>
                         </div>
                 </div>
-
+            <div className="flex justify-center mt-5">
+               <NavLink to={"/contact"}> <button className="btn btn-primary">Book Now</button></NavLink>
+            </div>
             </div>
         </div>
     );

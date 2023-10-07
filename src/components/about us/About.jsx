@@ -27,7 +27,7 @@ const About = () => {
                   <div>
                         <h1 className="text-5xl text-center mb-8">Our Winning Award</h1>
                     </div>
-                    <div className="flex justify-center items-center gap-3">
+                    <div className="flex flex-col lg:flex-row justify-center items-center gap-3">
                     <div className="flex flex-col items-center border-2 border-red-400 rounded-lg p-10">
                         <img className="w-[142px] mb-3" src="/badge.png" alt="" />
                         <p className="text-center">Unlimitcon recently wined the Master of Event Award 2020 Award. It was the largest achivement for them. In last year they ware worked 200+ events successfully. Globally revolutionize B2B e-markets without superior.</p>
