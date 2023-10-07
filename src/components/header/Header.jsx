@@ -35,7 +35,7 @@ const Header = () => {
                             <ul className="flex gap-5 items-center font-semibold">
 
                                 <NavLink to={"/"}><a className="hover:text-orange-600">Home</a></NavLink>
-                                <NavLink to={"/donation"}><a className="hover:text-orange-600">Donation</a></NavLink>
+                                <NavLink to={"/about"}><a className="hover:text-orange-600">About</a></NavLink>
                                 <NavLink to={"/statistics"}><a className="hover:text-orange-600">Statistics</a></NavLink>
                                 {
                                     user ?

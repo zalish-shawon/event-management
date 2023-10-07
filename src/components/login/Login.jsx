@@ -2,7 +2,7 @@
 /* eslint-disable react/no-unknown-property */
 
 import { useContext } from "react";
-import { Link } from "react-router-dom";
+import { Link, useLocation, useNavigate } from "react-router-dom";
 import { AuthContext } from "../../provider/AuthProvider";
 import toast, { Toaster } from 'react-hot-toast';
 
@@ -11,6 +11,8 @@ const Login = () => {
     
 
 const {loginUser, googleLogin} = useContext(AuthContext)
+const navigate = useNavigate()
+const location = useLocation()
 
 const handleLogin = (e) => {
     e.preventDefault()
@@ -20,6 +22,7 @@ const handleLogin = (e) => {
     loginUser(email, password)
   .then(res => {
     toast.success('Successfully logged in')
+    navigate(location?.state ? location.state : "/")
   })
   .catch(error => {
     toast.error(error.message)
@@ -131,7 +134,7 @@ const handlegoogleLogin = () => {
                 <p class="text-sm font-light text-gray-500 dark:text-gray-400">
                   Don’t have an account yet?{" "}
                   <a
-                    href="#"
+                    href=""
                     class="font-medium text-primary-600 hover:underline dark:text-primary-500"
                   >
                     Sign up
