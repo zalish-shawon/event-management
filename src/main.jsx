@@ -15,10 +15,12 @@ import AuthProvider from './provider/AuthProvider.jsx';
 import PrivateRoutes from './components/route/PrivateRoutes.jsx';
 import About from './components/about us/About.jsx';
 import Contact from './components/contact/Contact.jsx';
+import Error from './components/Error/Error.jsx';
 const router = createBrowserRouter([
   {
     path: "/",
     element: <MainLayout></MainLayout>,
+    errorElement:<Error></Error>,
     children: [
       {
         path: "/",
