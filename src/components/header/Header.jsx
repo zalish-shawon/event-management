@@ -39,10 +39,10 @@ const Header = () => {
                                 <NavLink to={"/contact"}><a className="">Contact</a></NavLink>
                                 {
                                     user ?
-                                        <div className="flex items-center justify-center gap-3">
-                                            <div className="flex justify-center items-center gap-3">
-                                                <p>{user?.email}</p>
-                                                <img className="w-[50px] rounded-full" src={user.photoURL} alt="" />
+                                        <div className="flex flex-col lg:flex-row items-center justify-center gap-3">
+                                            <div className="flex flex-col lg:flex-row justify-center items-center gap-3">
+                                                <p>{user?.displayName}</p>
+                                                <img className="w-10 h-10 p-1 rounded-full ring-2 ring-gray-300 dark:ring-gray-500" src={user.photoURL} alt="" />
                                             </div>
                                             <a onClick={handleLogOut} className="hover:text-orange-600 btn btn-primary">Logout</a>
                                             </div>
