@@ -2,7 +2,7 @@
 const About = () => {
     return (
         <div>
-            <div className="hero h-[300px]" style={{ backgroundImage: 'url(/public/bg3.png)', backgroundSize: 'cover' }}>
+            <div className="hero h-[300px]" style={{ backgroundImage: 'url(/bg3.png)', backgroundSize: 'cover' }}>
                 <div className="hero-overlay bg-opacity-60"></div>
                 <div className="hero-content text-center text-neutral-content">
                     <div className="max-w-md">
