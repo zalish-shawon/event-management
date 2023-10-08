@@ -12,13 +12,13 @@ const Details = () => {
                 <div className="hero-overlay bg-opacity-60"></div>
                 <div className="hero-content text-center text-neutral-content">
                     <div className="max-w-md">
-                        <h1 className="mb-5 text-5xl font-bold">{details.categoryName}
+                        <h1 data-aos="fade-right" data-aos-duration="2000" className="mb-5 text-5xl font-bold">{details.categoryName}
                         </h1>
-                        <p>{details.short_description}</p>
+                        <p data-aos="fade-left" data-aos-duration="2000">{details.short_description}</p>
                     </div>
                 </div>
             </div>
-            <div className="mt-10 w-full">
+            <div data-aos="zoom-in-up" data-aos-duration="2000" className="mt-10 w-full">
 
                 <div class="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
                     
