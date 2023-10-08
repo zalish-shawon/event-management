@@ -44,7 +44,7 @@ const handlegoogleLogin = () => {
   return (
     <section
       style={{
-        backgroundImage: "url(/public/bg1.png)",
+        backgroundImage: "url(/bg1.png)",
         backgroundSize: "cover",
       }}
       class="bg-gray-50 dark:bg-gray-900"

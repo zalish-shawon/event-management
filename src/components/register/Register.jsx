@@ -61,7 +61,7 @@ const handleUser = (e) => {
 
 
     return (
-        <section class="bg-gray-50 dark:bg-gray-900" style={{backgroundImage: 'url(/public/bg1.png)', backgroundSize: 'cover'}}>
+        <section class="bg-gray-50 dark:bg-gray-900" style={{backgroundImage: 'url(/bg1.png)', backgroundSize: 'cover'}}>
                         <Toaster
                 position="top-right"
                 reverseOrder={false}
